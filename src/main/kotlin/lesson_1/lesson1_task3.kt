@@ -1,22 +1,24 @@
 package org.example.lesson_1
 
 fun main() {
-    val year = 1961
+    val year = "1961"
 
-    var hour = 9
+    var hour = "09"
 
-    var minute = 7
+    var minute = "07"
 
     println(year)
 
-    println(String.format("%02d", hour))
+    println(hour)
 
-    println(String.format("%02d", minute))
+    println(minute)
 
-    hour = 10
+    hour = "10"
 
-    minute = 55
+    minute = "55"
 
-    println(String.format("%02d:%02d", hour, minute))
+    print(hour)
+    print(":")
+    print(minute)
 
 }
