@@ -3,9 +3,9 @@ package org.example.lesson_3
 fun main() {
     var currentMove = "D2-D4;0"
 
-    var positionFrom = currentMove.slice(0..1)
-    var positionTo = currentMove.slice(3..4)
-    var numberOfMove = currentMove.substringAfter(';')
+    var positionFrom = currentMove.split("-", ";")[0]
+    var positionTo = currentMove.split("-", ";")[1]
+    var numberOfMove = currentMove.split("-", ";")[2]
 
     println(positionFrom)
     println(positionTo)
