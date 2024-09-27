@@ -11,8 +11,8 @@ fun main() {
     var currentHumidity: Int = 20
     var currentSeason: String = "зима"
 
-    println("Благоприятные ли условия сейчас для роста бобовых? ${(isSunnyWeather == WEATHER_IS_SUNNY) 
-            && (isAwningOpen == AWNING_IS_OPEN) 
-            && (currentHumidity == GOOD_HUMIDITY) 
-            && (currentSeason != BAD_SEASON)}")
+    println("Благоприятные ли условия сейчас для роста бобовых? ${(isSunnyWeather == WEATHER_IS_SUNNY) && 
+            (isAwningOpen == AWNING_IS_OPEN) && 
+            (currentHumidity == GOOD_HUMIDITY) && 
+            (currentSeason != BAD_SEASON)}")
 }
