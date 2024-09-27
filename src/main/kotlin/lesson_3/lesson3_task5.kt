@@ -1,11 +1,12 @@
 package org.example.lesson_3
 
 fun main() {
-    var currentMove = "D2-D4;0"
+    val currentMove = "D2-D4;0"
 
-    var positionFrom = currentMove.split("-", ";")[0]
-    var positionTo = currentMove.split("-", ";")[1]
-    var numberOfMove = currentMove.split("-", ";")[2]
+    val splitCurrentMove = currentMove.split("-", ";")
+    val positionFrom = splitCurrentMove[0]
+    val positionTo = splitCurrentMove[1]
+    val numberOfMove = splitCurrentMove[2]
 
     println(positionFrom)
     println(positionTo)
