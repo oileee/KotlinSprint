@@ -20,4 +20,5 @@ fun main() {
             "${(weightOfCargoKilos > MIN_WEIGHT_OF_AVERAGE_CATEGORY_KILOS) && 
                     (weightOfCargoKilos <= MAX_WEIGHT_OF_AVERAGE_CATEGORY_KILOS) && 
                     (volumeOfCargoLitres < MAX_VOLUME_OF_AVERAGE_CATEGORY_LITRES)}")
+
 }
